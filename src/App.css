@@ -1,0 +1,21 @@
+h1{
+  color: aquamarine;
+  z-index: 100;
+}
+
+
+ul{
+  z-index: 99;
+}
+
+.home{
+  width: 565px;
+  height: 440px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;  
+  position: absolute;
+  right: 0;
+  top: 24;
+  z-index: 1;
+}
