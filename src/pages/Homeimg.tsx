@@ -7,7 +7,7 @@ function Homeimg() {
     const [flipped, set] = useState(false)
     const { transform, opacity } = useSpring({
         opacity: flipped ? .5 : 0,
-        transform: `perspective(900px) rotateY(${flipped ? 180 : 0}deg)`,
+        transform: `perspective(900px) rotateY(${flipped ? 360 : 180}deg)`,
         config: { mass: 5, tension: 500, friction: 80 },
     })
     return (
@@ -23,10 +23,24 @@ function Homeimg() {
                     transform,
                     rotateX: '0deg',
                 }}
-            />
-            <a.div  >
+            >
+                <span className='txtcont' >
+                    <h1>GESTALT TERAPIA</h1>
+                    <ul>
+                        <h2>Seu Tempo!</h2>
+                        <li>Monitoramento</li>
+                        <li>Aprendizagem</li>
+                        <li>Conhecimento</li>
+                    </ul>
 
-            </a.div >
+                    <div className='txtinf'>
+                        <ul>
+                            <li className='inf'>CRP: 00/000000</li>
+                            <li className='inf'>Nome: Jade Rodrigues</li>
+                        </ul>
+                    </div>
+                </span>
+            </a.div>
         </div>
     )
 }
