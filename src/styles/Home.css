@@ -6,4 +6,39 @@
     left: 14px;
     max-width: 1000px;
     min-width: 50px;
+
+}
+
+.c {
+    position: fixed;
+    width: 696px;
+    height: 98%;
+    cursor: pointer;
+    will-change: transform, opacity;
+    border-radius: 70%;
+
+}
+
+.front,
+.back {
+    background-size: cover;
+}
+
+
+.back {
+    background-image: url(../assets/jadepsi.JPG);
+
+}
+
+.front {
+    background-image: url(../assets/gestaltterapia.jpg);
+}
+
+.container {
+    border-radius: 70%;
+    position: fixed;
+    top: 14px;
+    left: 14px;
+    max-width: 1000px;
+    min-width: 50px;
 }

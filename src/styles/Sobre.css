@@ -1,5 +1,53 @@
-div{
+.div {
     display: flex;
     text-align: center;
-    
+    flex-direction: column;
+}
+
+.bgcute {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    text-align: justify;
+    padding-right: 14px;
+    margin: 14px;
+}
+
+.buttons {
+    display: flex;
+    position: absolute;
+    justify-items: center;
+    z-index: 99;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto 14px;
+}
+
+.btncontato {
+    background-color: #747bff;
+    text-transform: uppercase;
+    flex-direction: row;
+    display: flex;
+}
+
+.iconcontato {
+    display: flex;
+    color: black;
+    width: 20px;
+    height: 20px;
+    left: 12px;
+}
+
+.btncontato p {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    justify-items: center;
+    margin: 0 auto;
 }

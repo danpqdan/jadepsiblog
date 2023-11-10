@@ -7,7 +7,6 @@ div {
 .lista {
     display: flex;
     box-sizing: border-box;
-    position: fixed;
     justify-items: center;
     right: 14px;
     top: 0;
@@ -23,7 +22,8 @@ li {
     margin-right: 30px;
 }
 
-li:hover {
+li:hover a{
     transition: 1s;
     font-size: 52px;
+    text-decoration: solid black 20px;
 }
