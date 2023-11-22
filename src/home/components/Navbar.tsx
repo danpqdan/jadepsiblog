@@ -6,7 +6,7 @@ export function Navbar() {
 
         <div >
             <ul className='lista'>
-                <li><a href="">Inicio</a></li>
+                <li><a>Home</a></li>
                 <li><a href="">Terapia</a></li>
                 <li><a href="">Contato</a></li>
             </ul>
